@@ -5,7 +5,7 @@
     --text-color: #131313;
     --bg-color-01: #f0f0f0;
     --bg-color-02: #00eeff;
-    --color-00: #0000001a;
+    --color-00: #000000d5;
     --color-01: #e22c14c4;
 }
 
@@ -168,7 +168,7 @@ header {
     font-size: 0.6rem;
 }
 
-.overlay {
+.overlay1 {
     position: absolute;
     top: 73%;
     left: 70%;
@@ -177,6 +177,42 @@ header {
     background-color: var(--color-01);
     z-index: 2;
     transform: translate(-50%, -50%);
+}
+
+.overlay1:hover {
+    opacity: 1;
+}
+
+.overlay1-content {
+    text-align: left;
+    position: relative;
+    padding: 1rem;
+    display: none;
+    z-index: 10;
+}
+
+.read-more {
+    top: 82%;
+    left: 2%;
+    position: absolute;
+    transition: 1s;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 0.3rem 0.5rem;
+    color: var(--text-color);
+}
+
+.read-more:hover {
+    color: var(--main-color);
+}
+
+.read-more i {
+    margin-left: 5px;
+}
+
+.overlay p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
 }
 
 .home-image img {
