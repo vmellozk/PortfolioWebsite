@@ -41,7 +41,7 @@ header {
 }
 
 .profile-picture {
-    max-width: 69%;
+    max-width: 55.2%;
     height: auto;
     display: block;
     margin: 0;
@@ -136,7 +136,7 @@ header {
     position: absolute;
     text-align: left;
     top: 19%;
-    left: 73%;
+    left: 70%;
     width: 10%;
     height: 37%;
     rotate: 90deg;
@@ -168,6 +168,27 @@ header {
     font-size: 0.6rem;
 }
 
+.idade {
+    position: absolute;
+    text-align: left;
+    top: 63%;
+    left: 3%;
+    width: 10%;
+    height: 37%;
+    font-size: 5rem;
+    rotate: -90deg;
+}
+
+.idade h5 {
+    position: absolute;
+    text-align: left;
+    top: 60%;
+    left: 4%;
+    width: 10%;
+    height: 37%;
+    font-size: 1rem;
+}
+
 .overlay1 {
     position: absolute;
     top: 73%;
@@ -177,37 +198,11 @@ header {
     background-color: var(--color-01);
     z-index: 2;
     transform: translate(-50%, -50%);
+    box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.5);
 }
 
 .overlay1:hover {
     opacity: 1;
-}
-
-.overlay1-content {
-    text-align: left;
-    position: relative;
-    padding: 1rem;
-    display: none;
-    z-index: 10;
-}
-
-.read-more {
-    top: 82%;
-    left: 2%;
-    position: absolute;
-    transition: 1s;
-    border: 2px solid;
-    border-radius: 4px;
-    padding: 0.3rem 0.5rem;
-    color: var(--text-color);
-}
-
-.read-more:hover {
-    color: var(--main-color);
-}
-
-.read-more i {
-    margin-left: 5px;
 }
 
 .overlay p {
@@ -215,16 +210,40 @@ header {
     font-size: 0.9rem;
 }
 
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+}
+
+.overlay1 h6 {
+    font-size: 1.3rem;
+    margin-top: 230px;
+    margin-left: 67px;
+    cursor: default;
+}
+
+.social-icons a {
+    color: rgb(0, 0, 0);
+    font-size: 2.2rem;
+    margin-right: 10px;
+}
+
+.social-icons a:hover {
+    color: #ffffff; /* Altere conforme seu esquema de cores */
+}
+
 .home-image img {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    margin-left: 40px;
 }
 
 .portfolio {
     padding: 2rem;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 20rem;
 }
 
 .portfolio h2 {
