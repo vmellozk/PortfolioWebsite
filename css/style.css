@@ -54,6 +54,11 @@ span {
     margin-top: 3.5rem;
 }
 
+.nav {
+    list-style-type: none;
+    display: flex;
+}
+
 .nav a {
     color: var(--bg-color-01);
     font-size: 1.2rem;
@@ -202,7 +207,7 @@ span {
     background-color: #001b94;;
     z-index: 2;
     transform: translate(-50%, -50%);
-    box-shadow: 15px 15px 35px 15px #000000;
+    box-shadow: 0 0 45px 20px #000000;
 }
 
 .overlay1:hover {
@@ -365,9 +370,23 @@ span {
     resize: vertical;
 }
 
+.input-box p {
+    font-size: 0.77rem;
+    color: #474747;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
 .about {
     text-align: center;
     margin-top: 80px;
+    padding: 60px;
+}
+
+button {
+    font-size: 1rem;
+    background-color: var(--color-00);
+    cursor: pointer;
 }
 
 footer {
