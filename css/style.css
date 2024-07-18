@@ -38,6 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: var(--color-00);
 }
 
 span {
@@ -45,13 +46,14 @@ span {
 }
 
 .profile-picture {
-    max-width: 55.2%;
+    max-width: 56.4%;
     height: auto;
     display: block;
     margin: 0;
     position: relative;
     cursor: default;
     margin-top: 3.5rem;
+    left: 14%;
 }
 
 .nav {
@@ -83,8 +85,10 @@ span {
     border: 2px solid var(--main-color);
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    transition: 0.5s;
+    transition: 0.8s;
 }
+
+
 
 .home-content .btn {
     margin-top: 3rem; 
@@ -201,8 +205,8 @@ span {
 .overlay1 {
     position: absolute;
     top: 73%;
-    left: 70%;
-    width: 59%;
+    left: 71%;
+    width: 58%;
     height: 37%;
     background-color: #001b94;;
     z-index: 2;
@@ -340,11 +344,15 @@ span {
 
 .portfolio-buttons .btn {
     margin-right: 0.5rem;
+    padding: 5px 5px;
 }
+
+
 
 .contact {
     padding: 2rem;
     text-align: center;
+    margin-top: 100px;
 }
 
 .contact h2 {
